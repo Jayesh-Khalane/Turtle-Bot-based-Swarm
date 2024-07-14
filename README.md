@@ -16,22 +16,27 @@
 
 ## Installation
 1. Setup turtlebot3 environtment[from here](https://emanual.robotis.com/docs/en/platform/turtlebot3/quick-start/#pc-setup)
-2. Create a py pkg and clone this repo in its catkin_ws/src/your_pkg/src/scripts.
+2. Create a python pkg and clone this repo in  catkin_ws/src/your_pkg/src/scripts.
 3. export TURTLEBOT3_MODEL=burger and then  lauch multi robot simultaion (make sure you have follwowed the simulation steps for turtle bot3 burger model)
 4.  **Start the simulation:**
     ```bash
     export TURTLEBOT3_MODEL=burger
-    roslaunch turtlebot3_gazebo turtlebot3_empty_world.launch
     ```
+    ```bash
+ 
+    roslaunch turtlebot3_gazebo multi_turtlebot3.launch
+    ```
+    
 
-## Videos
+
+## Explanation Videos
 ### Project Demonstration
-[![Project Demo](https://youtu.be/Zxg1iteGq_Y)
+[![Project Demo]([https://youtu.be/Zxg1iteGq_Y](https://youtu.be/Zxg1iteGq_Y))
 
-### Algorithm 
+### Deomstration Videos
 [![Algorithm ](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://youtu.be/VIDEO_ID)
 
-in a certain ratio range are identified as other TurtleBots, while those that do not are considered obstacles.
+
 
 ### Bug Report
  Any obstacle with features similar to those of the TurtleBot would be incorrectly classified as another TurtleBot. This represents a significant limitation of the current code.
