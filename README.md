@@ -10,7 +10,7 @@
 1. **Sensing:** Each TurtleBot uses 2D LiDAR sensors to scan the environment within a 120-degree field.
 2. **Detection:** The algorithm differentiates between other TurtleBots and obstacles based on sensor data.
 
-   yet to implement in the lidar_data_procesosr code to .....to refer below points  can refer community.py code
+   follwing points are not implemented in the lidar_data_procesosr code to .....to refer below points please  refer community.py code
 4. **Aggregation:** The system continuously monitors and estimates the positions of individual robots, enabling swarm behavior.
 5. **Collision Avoidance:** Ensures that robots avoid obstacles and each other to maintain smooth operation.
 
