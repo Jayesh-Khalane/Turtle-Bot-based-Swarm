@@ -28,11 +28,11 @@
     ```
 
 5. catkin_make and Run the code.
-           ```bash
+   ```bash
  
     rosrun turtlebot3_lidar_processing data_proccesing.py
 
-    ```    
+   ```    
       
 
     
