@@ -31,10 +31,10 @@
 
 ## Explanation Videos
 ### Project Demonstration
-[![Project Demo](https://youtu.be/Zxg1iteGq_Y?si=wjVbnHYKQ7Kt8mHI)
+[Project Demo](https://youtu.be/Zxg1iteGq_Y?si=wjVbnHYKQ7Kt8mHI)
 
 ### Deomstration Videos
-[![Algorithm ](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://youtu.be/VIDEO_ID)
+[Algorithm ](https://img.youtube.com/vi/VIDEO_ID/0.jpg)
 
 
 
