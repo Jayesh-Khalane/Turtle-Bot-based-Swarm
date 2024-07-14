@@ -16,7 +16,7 @@
 
 ## Installation
 1. Setup turtlebot3 environtment[from here](https://emanual.robotis.com/docs/en/platform/turtlebot3/quick-start/#pc-setup)
-2. Create a python pkg and clone this repo in  catkin_ws/src/your_pkg/src/scripts.
+2. Create a python pkg and clone this repo in  catkin_ws/src/your_pkg/src/scripts.my pkg is called turtlebot3_lidar_processing.
 3. export TURTLEBOT3_MODEL=burger and then  lauch multi robot simultaion (make sure you have follwowed the simulation steps for turtle bot3 burger model)
 4.  **Start the simulation:**
     ```bash
@@ -25,6 +25,13 @@
     ```bash
  
     roslaunch turtlebot3_gazebo multi_turtlebot3.launch
+    ```
+
+5. catkin_make and Run the code.
+ ```bash
+ 
+    rosrun turtlebot3_lidar_processing data_proccesing.py
+
     ```
     
 
