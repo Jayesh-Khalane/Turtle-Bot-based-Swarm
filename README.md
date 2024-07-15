@@ -42,9 +42,15 @@
 ### Project Demonstration
 [Project Demo](https://youtu.be/Zxg1iteGq_Y?si=wjVbnHYKQ7Kt8mHI)
 
-### Deomstration Videos
-[Algorithm ](https://img.youtube.com/vi/VIDEO_ID/0.jpg)
-
+### Indentification demonstration
+[click here ](https://youtu.be/2JdhxI7-Lgw)
+### Static and Dynamic 
+[click here ](https://youtu.be/9UPoltkLEds)
+### Basic clustering without obstcales.
+[click here ](https://youtu.be/FyDi8gXWTsE)
+###  Basic clustering with obstcales.
+[without lidar visualization ](https://youtu.be/xLgDODAIH-8)
+[with lidar visualization ](https://youtu.be/H-vEGUo1Xfo)
 
 
 ### Bug Report
