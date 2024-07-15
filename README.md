@@ -1,6 +1,5 @@
 # Turtle-Bot Based Swarm Robots
 
-
 ## Key Features
 - **Decentralized Multi-Robot System:** Utilizes 2D LiDAR sensors to achieve collision avoidance and swarm aggregation without inter-robot communication.
 - **Scalable and Fault-Tolerant:** The algorithm ensures robustness and scalability in various environments.
@@ -9,55 +8,48 @@
 ## How It Works
 1. **Sensing:** Each TurtleBot uses 2D LiDAR sensors to scan the environment within a 120-degree field.
 2. **Detection:** The algorithm differentiates between other TurtleBots and obstacles based on sensor data.
-
-   follwing points are not implemented in the lidar_data_procesosr code to .....to refer below points please  refer community.py code
-4. **Aggregation:** The system continuously monitors and estimates the positions of individual robots, enabling swarm behavior.
+       Following points are not included in the lidar_data_processor.py code for that please checkout community.py
+4. **Aggregation:** Continuously monitors and estimates the positions of individual robots, enabling swarm behavior.
 5. **Collision Avoidance:** Ensures that robots avoid obstacles and each other to maintain smooth operation.
 
 ## Installation
-1. Setup turtlebot3 environtment[from here](https://emanual.robotis.com/docs/en/platform/turtlebot3/quick-start/#pc-setup)
-2. Create a python pkg and clone this repo in  catkin_ws/src/your_pkg/src/scripts.my pkg is called turtlebot3_lidar_processing.
-3. export TURTLEBOT3_MODEL=burger and then  lauch multi robot simultaion (make sure you have follwowed the simulation steps for turtle bot3 burger model)
-4.  **Start the simulation:**
+1. **Setup TurtleBot3 Environment:** Follow the instructions [here](https://emanual.robotis.com/docs/en/platform/turtlebot3/quick-start/#pc-setup) to set up the TurtleBot3 environment.
+2. **Create a Python Package:** Clone this repository in `catkin_ws/src/your_pkg/src/scripts`. For example, my package is called `turtlebot3_lidar_processing`.
+3. **Set TurtleBot3 Model:**
     ```bash
     export TURTLEBOT3_MODEL=burger
     ```
+4. **Launch Multi-Robot Simulation:** Make sure you have followed the simulation steps for the TurtleBot3 burger model.
     ```bash
- 
     roslaunch turtlebot3_gazebo multi_turtlebot3.launch
     ```
-
-5. catkin_make and Run the code.
-   ```bash
- 
-    rosrun turtlebot3_lidar_processing data_proccesing.py
-
-   ```    
-      
-
-    
-
+5. **Build and Run the Code:**
+    ```bash
+    catkin_make
+    ```
+    ```bash
+    rosrun turtlebot3_lidar_processing data_processing.py
+    ```
 
 ## Explanation Videos
 ### Project Demonstration
 [Project Demo](https://youtu.be/Zxg1iteGq_Y?si=wjVbnHYKQ7Kt8mHI)
 
-### Indentification demonstration
-[click here ](https://youtu.be/2JdhxI7-Lgw)
-### Static and Dynamic 
-[click here ](https://youtu.be/9UPoltkLEds)
-### Basic clustering without obstcales.
-[click here ](https://youtu.be/FyDi8gXWTsE)
-###  Basic clustering with obstcales.
-[without lidar visualization ](https://youtu.be/xLgDODAIH-8)
-[with lidar visualization ](https://youtu.be/H-vEGUo1Xfo)
+### Identification Demonstration
+[Click here](https://youtu.be/2JdhxI7-Lgw)
 
+### Static and Dynamic
+[Click here](https://youtu.be/9UPoltkLEds)
 
-### Bug Report
- Any obstacle with features similar to those of the TurtleBot would be incorrectly classified as another TurtleBot. This represents a significant limitation of the current code.
+### Basic Clustering without Obstacles
+[Click here](https://youtu.be/FyDi8gXWTsE)
+
+### Basic Clustering with Obstacles
+- [Without LiDAR Visualization](https://youtu.be/xLgDODAIH-8)
+- [With LiDAR Visualization](https://youtu.be/H-vEGUo1Xfo)
+
+## Bug Report
+Any obstacle with features similar to those of the TurtleBot would be incorrectly classified as another TurtleBot. This represents a significant limitation of the current code.
 
 ## Acknowledgements
-Special thanks to my mentors, Prof. Leena Vachhani and Sweksha Jain from ARMS lab Systems and Control Engineering, IIT-Bombay, for their guidance and support throughout this project.
-
-
-
+Special thanks to my mentors, Prof. Leena Vachhani and Sweksha Jain from ARMS Lab, Systems and Control Engineering, IIT-Bombay, for their guidance and support throughout this project.
