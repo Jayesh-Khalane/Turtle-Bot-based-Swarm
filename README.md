@@ -51,5 +51,4 @@
 ## Bug Report
 Any obstacle with features similar to those of the TurtleBot would be incorrectly classified as another TurtleBot. This represents a significant limitation of the current code.
 
-## Acknowledgements
-Special thanks to my mentors, Prof. Leena Vachhani and Sweksha Jain from ARMS Lab, Systems and Control Engineering, IIT-Bombay, for their guidance and support throughout this project.
+
