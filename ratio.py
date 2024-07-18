@@ -1,5 +1,9 @@
 #!/usr/bin/env python3
 #Author : Jayesh Khalane
+"""
+This code is used to calucalte ratio of dectected groups.
+"""
+
 import rospy
 from sensor_msgs.msg import LaserScan
 import math
