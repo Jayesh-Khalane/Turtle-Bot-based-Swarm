@@ -10,7 +10,7 @@
 2. **Detection:** The algorithm differentiates between other TurtleBots and obstacles based on sensor data.
    
 
-   \n\nFollowing points are not included in the lidar_data_processor.py code for that please checkout community.py
+   Following points are not included in the lidar_data_processor.py code for that please checkout community.py
 4. **Aggregation:** Continuously monitors and estimates the positions of individual robots, enabling swarm behavior.
 5. **Collision Avoidance:** Ensures that robots avoid obstacles and each other to maintain smooth operation.
 
