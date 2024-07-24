@@ -51,6 +51,6 @@
 - [With LiDAR Visualization](https://youtu.be/H-vEGUo1Xfo)
 
 ## Bug Report
-Any obstacle with features similar to those of the TurtleBot would be incorrectly classified as another TurtleBot. This represents a significant limitation of the current code.
+Any obstacle with features similar to those of the TurtleBot would be incorrectly classified as another TurtleBot.
 
 
