@@ -1,5 +1,6 @@
 # Turtle-Bot Based Swarm Robots
-![Alt text](Screenshot_2024-12-20_221032.png)
+![Screenshot](https://github.com/Jayesh-Khalane/Turtle-Bot-based-Swarm/blob/main/Screenshot%202024-12-20%20221032.png?raw=true)
+
 
 ## Key Features
 - **Decentralized Multi-Robot System:** Utilizes 2D LiDAR sensors to achieve collision avoidance and swarm aggregation without inter-robot communication.
